@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ToolSectionComponent } from './tool-section.component';
+import { ToolsPageComponent } from './tools-page.component';
 
-describe('ToolSectionComponent', () => {
-  let component: ToolSectionComponent;
-  let fixture: ComponentFixture<ToolSectionComponent>;
+describe('ToolsPageComponent', () => {
+  let component: ToolsPageComponent;
+  let fixture: ComponentFixture<ToolsPageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ToolSectionComponent ]
+      declarations: [ ToolsPageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ToolSectionComponent);
+    fixture = TestBed.createComponent(ToolsPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,9 +1,12 @@
-  
+<div>
+  <tabset>
+    <tab heading="Content" id="tab1">
+        
 <div class="tab-content" id="tool_section">
   <div id="home" class="tab-pane fade in active">
     <div class="row">
       <div class="col-sm-4">
-        <div class="panel panel-default" id='panel1' (click)="dragObject()" (dragstart)="startDragging($event)">
+        <div class="panel panel-default" id='panel1'(dragstart)="startDragging($event)">
           <div class="panel-body" id="panel_body">
             <div class="row text-center">
               <i class="fa fa-file-text-o fa-5x" aria-hidden="true"></i>
@@ -79,3 +82,10 @@
     </div>
   </div>
 </div>
+
+</tab>
+    <tab heading="Structure">Static Structure Here</tab>
+    <tab heading="Body">Static Body Here</tab>
+  </tabset>
+</div>
+ 
