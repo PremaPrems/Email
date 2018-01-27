@@ -17,6 +17,8 @@ public id: number =0
   ngOnInit() {
   }
 dragObject(){
+
+  
   	this.item={
 			id:(this.id=this.id+1),
 			content: 'Type your text here!'
