@@ -1,0 +1,18 @@
+.structure {
+    width:100%;
+    height:auto;
+    text-align: center;
+    border-width: thin;
+    border: dashed;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-color: lavender;
+    background-color: aliceblue;
+}
+.textContent {
+    background-color: lightgray;
+    border: none;
+    overflow: hidden;
+    width: 80%;
+    text-align: justify;
+}

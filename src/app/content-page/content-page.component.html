@@ -1,0 +1,9 @@
+<div>
+  <div class="structure" >
+		<div class="elemets" *ngFor="let element of content.elements" style="padding-bottom: 5px">
+			<div>
+			<textarea class="textContent" id="{{element.id}}" (keyup)="resize(element.id)"(click)="getText(element.id)" placeholder="{{element.edit.content}}" [style.font-family]="element.edit.fontStyle" [style.font-size.px]="element.edit.fontSize" *ngIf="element.type == 'text'"></textarea>
+		</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,7 @@
+<app-top-menu></app-top-menu>
+<div class="col-md-7 contentPage">
+  <app-content-page [typeName]="value"></app-content-page>
+  </div>
+  <div class="col-md-5 toolsPage">
+    <app-tools-page (dragText)="droppedItem($event)"></app-tools-page>
+  </div>

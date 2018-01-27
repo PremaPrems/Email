@@ -1,0 +1,37 @@
+#nav_inverse {
+    margin: 0px;
+}
+
+#fa_cubes {
+    font-size: 25px;
+}
+
+#fa_eye_a {
+    display: -webkit-box;
+    padding-top: 10px;
+}
+
+#fa_eye {
+    font-size:18px;
+    padding-top:8px;
+    margin-left: 13px;
+}
+
+#show_structure {
+    font-size: 12px;
+    padding-left: 7px;
+}
+
+#nav_right {
+    margin-top: 8px;
+    margin-right: 50px;
+}
+
+#help {
+    margin-right: 20px;
+}
+
+#save {
+    margin-top: 4px;
+    width: 150%;
+}
